@@ -1,0 +1,410 @@
+body{
+    background: #F3F5FC;
+    margin: auto;
+    max-width: 1440px;
+    /*display: flex;*/
+}
+
+header{
+    position: relative;
+    padding: 40px 0 1px 84px;
+    /*height 92px*/
+    /*display: flex;*/
+    /*width: calc(976px - 40px);
+    /*border: 1px solid black;*/
+}
+
+main{
+    display: flex;
+}
+
+.ingresarExclamacionLetrasEncriptarDesencriptar{ 
+    width: 976px;
+    /*border: 1px solid red;
+    /*display: flex;*/  
+}
+
+.ingresar{
+    position: relative;
+    padding: 76px 0 0 240px;
+    /*width: calc(976px - 240px);
+    /*display: flex;
+    /*border: 1px solid black;*/
+}
+
+.ingresarTexto{
+    /*display: block;*/
+    width: 680px;
+    height: 621px;
+    padding: 0;
+    /*top: 168px;
+    left: 240px;*/
+    /*margin: 168px 0 0 240px;*/
+    /*position: relative;*/
+    border: none;
+    background: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 48px;
+    outline: none;
+    resize: none;
+    color: #0A3871;
+}
+
+.ingresarTexto::placeholder{
+    color: #0A3871;
+}
+
+.ingresarTexto:focus{
+    border: none;
+}
+
+.exclamacionLetras{
+    position: relative;
+    padding: 59px 0 0 240px;
+    display: flex;
+    /*width: calc(976px - 240px);
+    /*92px + 700px + 59px = 851px*/
+    /*top 851px left 240px*/
+    /*border: 1px solid black;*/    
+}
+
+.exclamacion{
+    padding: 1px 8px 1px 0;
+}
+
+.letras{
+    width: 205px;
+    height: 18px;
+    opacity: 80%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+    resize: none;
+    border: 0;
+    padding: 0;
+    background: #F3F5FC;
+    color: #495057;
+}
+
+.encriptarDesencriptar{
+    position: relative;
+    padding: 16px 0 72px 240px;
+    display: flex;
+    /*width: calc(976px - 240px);
+    /*border: 1px solid black;*/
+}
+
+.encriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #0A3871;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 24px;
+    cursor: pointer;
+    /*display: block;
+    /*position: absolute;
+    /*margin: 885px 0 0 240px;*/
+}
+
+.desencriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    /*background: #D8DFE8;*/
+    background: none;
+    border: 1px solid #0A3871;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0A3871;
+    cursor: pointer;
+    /*position: absolute;
+    margin: 885px 0 0 592px;
+    /*240px left + 328px encriptar + 24px espacio*/
+}
+
+.rectanguloMunecoMensajesProcesadoCopiar{
+    position: relative; 
+    /*top: 40px;
+    left: 976px;*/
+    /*border: 1px solid yellow;
+    /*display: flex;*/
+}
+
+.rectanguloBlanco{
+    position: relative;
+    top: 40px;
+    /*left: 976px;
+    /*margin: 40px 0 0 976px;*/
+    /*1000px - 24px extra de png*/
+}
+
+.muneco{
+    position: absolute;
+    top: 283px;
+    left: calc(1032px - 976px);
+    /*margin: 283px 0 0 1032px;*/
+}
+
+.mensaje1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 336px;
+    height: 58px;
+    outline: none;
+    resize: none;
+    border: none;
+    position: absolute;
+    top: 619px;
+    left: calc(1032px - 976px);
+    /*margin: 619px 0 0 1032px;*/
+    color: #343A40;
+    padding: 0;
+    background: none;
+}
+
+.mensaje2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 336px;
+    height: 48px;
+    outline: none;
+    resize: none;
+    border: none;
+    position: absolute;
+    top: 693px;
+    left: calc(1032px - 976px);
+    /*margin: 693px 0 0 1032px;*/
+    /*619px top + 58px mensaje1 + 16px espacio*/
+    color: #495057;
+    padding: 0;
+    background: none;
+}
+
+.mensajeProcesado{
+    width: 336px;
+    height: 781px;
+    position: absolute;
+    top: 72px;
+    left: calc(1032px - 976px);
+    /*margin: 72px 0 0 1032px;*/
+    border: 0;
+    outline: none;
+    resize: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565749;
+    background: none;
+    /*border: 1px solid black;*/
+}
+
+.botonCopiar{
+    width: 336px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    background: none;
+    border: 1px solid #0A3871;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-variation-settings: 
+        "slnt" 0;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    cursor: pointer;
+    top: 885px;
+    left: calc(1032px - 976px);
+    /*margin: 885px 0 0 1032px;
+    /*240px left + 328px encriptar + 24px espacio*/
+}
+
+/*
+eliminar código duplicado
+para botones por ejemplo
+*/
+
+@media screen and (max-width: 768px) {
+    main{
+        /*border: 1px solid yellow;*/
+        display: block;
+    }
+    header, .ingresar, .ingresarTexto, .exclamacionLetras, .encriptarDesencriptar, .ingresarExclamacionLetrasEncriptarDesencriptar, .rectanguloMunecoMensajesProcesadoCopiar{
+        /*border: 1px solid black;*/
+        max-width: 100%;
+    }
+    header, .ingresar, .exclamacionLetras, .encriptarDesencriptar{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .ingresar{
+        padding-top: calc(76px + 72px);
+    }
+    .ingresarTexto{
+        height: calc(621px - 87px);
+    }
+    .encriptarDesencriptar{
+        padding-bottom: 64px;
+    }
+    .rectanguloMunecoMensajesProcesadoCopiar{
+        /*border: 1px solid black;*/
+        padding: 0 40px;
+        display: flex;
+    }
+    .rectanguloBlanco, .muneco{
+        display: none;
+    }
+    .mensajeProcesado{
+        position: relative;
+        /*border: 1px solid black;*/
+        width: 100%;
+        height: calc(133px - 64px);
+        max-height: 180px;
+        top: 0;
+        left: 0;
+        /*border-top: 32px solid transparent;
+        border-right: 32px solid transparent;
+        border-left: 32px solid transparent;
+        border-bottom: 131px solid transparent;*/
+        border: 32px solid transparent;
+        padding: 0;  
+        border-radius: 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px #00000014;
+        /*derecha abajo difumidano spread*/
+    }
+    .mensaje1{
+        width: 100%;
+        height: 29px;
+        top: 32px;
+        left: 0;
+        z-index: 1;
+    }
+    .mensaje2{
+        width: 100%;
+        height: 24px;
+        top: calc(32px + 29px + 16px);
+        left: 0;
+        z-index: 1;
+    }
+    .botonCopiar{
+        position: absolute;
+        width: 81.25%;
+        top: auto;
+        left: 9.375%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header{
+        padding: 24px 16px 21px 16px;
+    }
+    .ingresar{
+        padding: 56px 16px 64px 16px;
+    }
+    .ingresarTexto{
+        height: 232px;
+        max-height: 624px;
+    }
+    .exclamacionLetras{
+        padding: 0 16px;
+    }
+    .encriptarDesencriptar{
+        padding: 16px;
+        display: block;
+    }
+    .encriptar{
+        width: 100%;
+        margin: 0 0 24px 0;
+    }
+    .desencriptar{
+        width: 100%;
+    }
+    .rectanguloMunecoMensajesProcesadoCopiar{
+        padding: 48px 24px 40px 24px;
+    }
+    .mensajeProcesado{
+        height: 122px;
+        max-height: 432px;
+    }
+    .mensaje1{
+        width: 263px;
+        height: 58px;
+        top: 80px;
+        left: 56px;
+    }
+    .mensaje2{
+        width: 263px;
+        height: 48px;
+        top: 154px;
+        left: 56px;
+    }
+    .botonCopiar{
+        width: 74.4%;
+        left: 12.8%;
+    }
+}

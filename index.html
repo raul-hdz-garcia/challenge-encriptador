@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <section class="ingresarExclamacionLetrasEncriptarDesencriptar">
+                <header>
+                    <img src="Images/Logo3.png" alt="Logo Alura">
+                </header>
+
+                <div class="ingresar">
+                    <textarea class="ingresarTexto" placeholder="Ingrese el texto aquí" oninput="expandirIngresarTextoCel();"></textarea>
+                </div>    
+                
+                <div class="exclamacionLetras">
+                    <img src="Images/bi_exclamation-circle-fill.png" class="exclamacion" alt="Exclamation-circle-fill">
+                    <input type="text" class="letras" readonly value="Solo letras minúsculas y sin acentos">
+                </div>
+    
+                <div class="encriptarDesencriptar">
+                    <button onclick="encriptar(), expandirMensajeProcesadoTablet(), expandirMensajeProcesadoCel(), comprimirIngresarTextoCel();" class="encriptar">Encriptar</button>
+                    <button onclick="desencriptar(), expandirMensajeProcesadoTablet(), expandirMensajeProcesadoCel(), comprimirIngresarTextoCel();" class="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="rectanguloMunecoMensajesProcesadoCopiar">
+                <img src="Images/Rectangle 1.png" class="rectanguloBlanco" alt="Rectángulo blanco">
+
+                <div class="munecoMensajes">
+                    <img src="Images/Muñeco.png" class="muneco" alt="Muñeco">
+
+                    <textarea class="mensaje1" readonly>Ningún mensaje fue encontrado</textarea>
+                    <textarea class="mensaje2" readonly>Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                </div>
+
+                <textarea class="mensajeProcesado" readonly></textarea>
+
+                <button onclick="copiar();" class="botonCopiar" style="display: none">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <!--copyright-->
+        </footer>
+
+        <script src="app.js"></script>
+
+    </body>
+
+</html>
+
