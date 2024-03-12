@@ -21,12 +21,12 @@ function verificarMinusculasAcentos(){
         document.querySelector('.munecoMensajes').style.display = '';
         document.querySelector('.mensajeProcesado').value = '';
         document.querySelector('.botonCopiar').style.display = 'none';
-        if(window.innerWidth <= 768 && window.innerWidth > 375){
+        if(window.innerWidth <= 768 && window.innerWidth > 500){
             document.querySelector('.mensajeProcesado').style.borderBottom = '32px solid transparent';
             let iT = document.querySelector('.mensajeProcesado');
             iT.style.height = '69px';
         }
-        if(window.innerWidth <= 375){
+        if(window.innerWidth <= 500){
             document.querySelector('.mensajeProcesado').style.borderBottom = '32px solid transparent';
             let iT = document.querySelector('.mensajeProcesado');
             iT.style.height = '122px';
@@ -98,7 +98,7 @@ function copiar(){
 }
 
 function expandirMensajeProcesadoTablet(){
-    if(window.innerWidth <= 768 && window.innerWidth > 375){
+    if(window.innerWidth <= 768 && window.innerWidth > 500){
         document.querySelector('.mensajeProcesado').style.borderBottom = '131px solid transparent';
 
         let iT = document.querySelector('.mensajeProcesado');
@@ -115,7 +115,7 @@ function expandirMensajeProcesadoTablet(){
 }
 
 function expandirMensajeProcesadoCel(){
-    if(window.innerWidth <= 375){
+    if(window.innerWidth <= 500){
         document.querySelector('.mensajeProcesado').style.borderBottom = '131px solid transparent';
 
         let iT = document.querySelector('.mensajeProcesado');
@@ -132,7 +132,7 @@ function expandirMensajeProcesadoCel(){
 }
 
 function expandirIngresarTextoCel(){
-    if(window.innerWidth <= 375){
+    if(window.innerWidth <= 500){
         let iT = document.querySelector('.ingresarTexto');
         iT.style.height = '232px';
         iT.style.height = `${iT.scrollHeight}px`;
@@ -140,7 +140,7 @@ function expandirIngresarTextoCel(){
 }
 
 function comprimirIngresarTextoCel(){
-    if(window.innerWidth <= 375){
+    if(window.innerWidth <= 500){
         let iT = document.querySelector('.ingresarTexto');
         iT.style.height = '232px';
     }

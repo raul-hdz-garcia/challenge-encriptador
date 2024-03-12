@@ -314,6 +314,7 @@ para botones por ejemplo
         /*border: 1px solid black;*/
         padding: 0 40px;
         display: flex;
+        padding-bottom: 40px;
     }
     .rectanguloBlanco, .muneco{
         display: none;
@@ -359,7 +360,7 @@ para botones por ejemplo
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     header{
         padding: 24px 16px 21px 16px;
     }
@@ -395,13 +396,13 @@ para botones por ejemplo
         width: 263px;
         height: 58px;
         top: 80px;
-        left: 56px;
+        left: calc((100vw - 263px) / 2);
     }
     .mensaje2{
         width: 263px;
         height: 48px;
         top: 154px;
-        left: 56px;
+        left: calc((100vw - 263px) / 2);
     }
     .botonCopiar{
         width: 74.4%;
